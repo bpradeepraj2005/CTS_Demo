@@ -1,0 +1,21 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Databases & large data files
+backend/priorauth.db
+backend/data/*.csv
+backend/data/*.txt
+backend/ml/models/reference_profile.json
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
